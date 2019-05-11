@@ -1,0 +1,23 @@
+{
+  "name": "yell0w/spotify-bot",
+  "type": "project",
+  "authors": [
+    {
+      "name": "yell0w",
+      "email": "kontakt@patryksieradzki.pl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
